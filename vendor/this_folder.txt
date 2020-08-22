@@ -1,0 +1,3 @@
+This folder contains all the vendor stuff that the entire project could need.
+
+The vendor inside the game engine contains ONLY stuff that the game engine needs.

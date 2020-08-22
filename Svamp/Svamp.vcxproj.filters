@@ -1,17 +1,76 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="Svamp">
+      <UniqueIdentifier>{CC511F0E-3866-47BF-01E8-EA1E6DBB43F0}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    <Filter Include="Svamp\ECS">
+      <UniqueIdentifier>{164CE6CD-82B6-9A44-CBF4-4BEA379E7899}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="Svamp\ECS\Components">
+      <UniqueIdentifier>{6BB7F563-5746-7F2D-0065-9328ECD28FD3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Svamp\Structs">
+      <UniqueIdentifier>{F354295C-5F15-A592-2850-EE0F94CFE96E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Svamp.h" />
+    <ClInclude Include="src\Svamp\Application.h">
+      <Filter>Svamp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Svamp\Core.h">
+      <Filter>Svamp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Svamp\ECS\Component.h">
+      <Filter>Svamp\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Svamp\ECS\Components\PositionCmp.h">
+      <Filter>Svamp\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Svamp\ECS\Entity.h">
+      <Filter>Svamp\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Svamp\ECS\System.h">
+      <Filter>Svamp\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Svamp\EntryPoint.h">
+      <Filter>Svamp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Svamp\Log.h">
+      <Filter>Svamp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Svamp\Rectangle.h">
+      <Filter>Svamp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Svamp\Structs\Vector2.h">
+      <Filter>Svamp\Structs</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Svamp\Application.cpp">
+      <Filter>Svamp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Svamp\ECS\Component.cpp">
+      <Filter>Svamp\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Svamp\ECS\Components\PositionCmp.cpp">
+      <Filter>Svamp\ECS\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Svamp\ECS\Entity.cpp">
+      <Filter>Svamp\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Svamp\ECS\System.cpp">
+      <Filter>Svamp\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Svamp\Log.cpp">
+      <Filter>Svamp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Svamp\Rectangle.cpp">
+      <Filter>Svamp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Svamp\Structs\Vector2.cpp">
+      <Filter>Svamp\Structs</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
