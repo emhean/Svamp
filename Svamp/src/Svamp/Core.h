@@ -9,3 +9,6 @@
 #else
 	#error Svamp only support Windows as of currently!
 #endif
+
+
+#define BIT(x) (1 << x)

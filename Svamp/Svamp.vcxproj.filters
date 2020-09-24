@@ -13,6 +13,12 @@
     <Filter Include="Svamp\Structs">
       <UniqueIdentifier>{F354295C-5F15-A592-2850-EE0F94CFE96E}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Svamp\Events">
+      <UniqueIdentifier>{c5fd7465-fda3-42f7-b794-eed7bd96a53d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Svamp\Core">
+      <UniqueIdentifier>{bef0a5b0-7efe-450e-9999-0e1c24879b0b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Svamp.h" />
@@ -45,6 +51,21 @@
     </ClInclude>
     <ClInclude Include="src\Svamp\Structs\Vector2.h">
       <Filter>Svamp\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Svamp\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplicationEvent.h">
+      <Filter>Svamp\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyEvent.h">
+      <Filter>Svamp\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseEvent.h">
+      <Filter>Svamp\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyCodes.h">
+      <Filter>Svamp\Core</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
